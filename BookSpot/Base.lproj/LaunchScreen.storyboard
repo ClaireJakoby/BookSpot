@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginbg" translatesAutoresizingMaskIntoConstraints="NO" id="Lec-3o-o2B">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fg5-MH-67M">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.1803921568627451" green="0.68235294117647061" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BookSpot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYz-0u-shp">
+                                <rect key="frame" x="139" y="217.5" width="323" height="83.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made by Sida and Claire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hg4-gL-5De">
+                                <rect key="frame" x="209" y="560.5" width="184.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Hg4-gL-5De" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="1" id="2sP-7x-fWD"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Lec-3o-o2B" secondAttribute="bottom" id="3Sf-Ng-PZh"/>
+                            <constraint firstItem="AYz-0u-shp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="1" id="6ju-Zm-4ib"/>
+                            <constraint firstItem="Fg5-MH-67M" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="7eZ-DP-1oZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lec-3o-o2B" secondAttribute="trailing" constant="-20" id="AzV-5V-Fz8"/>
+                            <constraint firstItem="Lec-3o-o2B" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="BNi-dz-0NB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fg5-MH-67M" secondAttribute="trailing" constant="-20" id="Dib-8K-f2g"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Fg5-MH-67M" secondAttribute="bottom" id="E3Z-Aj-4ib"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Hg4-gL-5De" secondAttribute="bottom" constant="19" id="Hmb-OB-4oD"/>
+                            <constraint firstItem="Lec-3o-o2B" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="S0S-e7-16L"/>
+                            <constraint firstItem="Fg5-MH-67M" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="l9g-5u-xIe"/>
+                            <constraint firstItem="AYz-0u-shp" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="197" id="pas-pz-qwU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="loginbg" width="2378" height="2667"/>
+    </resources>
+</document>
