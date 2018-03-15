@@ -2,7 +2,7 @@
 
 Kleine uitleg:
 
-Dit project is mijn aller eerste Swift app, deze heb ik samen met een klasgenootje voor een 
+Dit project is mijn aller eerste Swift app (toen der tijd Swift 2), deze heb ik samen met een klasgenootje voor een 
 mid term project gemaakt. We hadden 2 weken de tijd om de hele app te bedenken, ontwerpen en maken.  
 Je zal merken dat dit gehele project plus beschrijving in het engels is, dat is omdat het meisje waarmee 
 ik samen werkte uit Litouwen komt. Ook is mijn engels sterker dan mijn Nederlandse talenschat. 
